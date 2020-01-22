@@ -1,14 +1,12 @@
 import React from 'react';
 import NavBar from './NavBar';
+import HeaderImage from './HeaderImage';
 
 export default function Header () {
   return (
-    /* Navigation start */
-    (
-      <header>
-        <NavBar />
-      </header>
-    )
-    /* Navigation end  */
+    <header>
+      <NavBar />
+      <HeaderImage />
+    </header>
   );
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Blog from './Blog';
+import Blog from '../components/Blog';
 
-export default function Main () {
+export default function Home () {
   return (
     <main>
       <Blog />

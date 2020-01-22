@@ -22,9 +22,9 @@ export default function NavBar () {
             id="navbarSupportedContent-4"
           >
             <ul className="navbar-nav">
-              <li className="nav-item dropdown ml-4 mb-0">
+              <li className="nav-item ml-4 mb-0">
                 <a
-                  className="nav-link dropdown-toggle waves-effect waves-light font-weight-bold"
+                  className="nav-link waves-effect waves-light font-weight-bold"
                   id="navbarDropdownMenuLink"
                   data-toggle="dropdown"
                   aria-haspopup="true"
@@ -33,53 +33,7 @@ export default function NavBar () {
                   {' '}
                   HOMEPAGE
                 </a>
-                <div
-                  className="dropdown-menu dropdown-menu-right"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../homepage/v-1.html"
-                  >
-                    V1
-                  </a>
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../homepage/v-2.html"
-                  >
-                    V2
-                  </a>
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../homepage/v-3.html"
-                  >
-                    V3
-                  </a>
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../homepage/v-4.html"
-                  >
-                    V4
-                  </a>
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../homepage/v-5.html"
-                  >
-                    V5
-                  </a>
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../homepage/v-6.html"
-                  >
-                    V6
-                  </a>
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../homepage/v-7.html"
-                  >
-                    V7
-                  </a>
-                </div>
+               
               </li>
               <li className="nav-item dropdown ml-4  mb-0">
                 <a

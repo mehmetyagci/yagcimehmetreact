@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function FeaturedPosts () {
   return (
-    <section className="section widget-content mt-5">
+    <section className="section widget-content">
       {/*  Card */}
       <div className="card card-body pb-0">
         <div className="single-post">

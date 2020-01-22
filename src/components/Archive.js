@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Archive () {
   return (
-    <section className="archive mb-5">
+    <section className="archive mb-5 mt-5">
       {/*  Card */}
       <div className="card card-body pb-0">
         <div className="single-post">
