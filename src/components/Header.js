@@ -6,7 +6,7 @@ export default function Header () {
   return (
     <header>
       <NavBar />
-      <HeaderImage />
+      {/* <HeaderImage /> */}
     </header>
   );
 }

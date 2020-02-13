@@ -1,11 +1,23 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import Blog from '../components/Blog';
 
-export default function Home () {
-  return (
-    <main>
-      <Blog />
-    </main>
-  );
+class Home extends Component {
+  componentWillMount () {
+    document.getElementById ('root').className = 'homepage-v1';
+  }
+
+  componentWillUnmount () {
+    document.getElementById ('root').className = '';
+  }
+
+  render () {
+    return (
+      <main>
+        <Blog />
+      </main>
+    );
+  }
 }
+
+export default Home;

@@ -1,0 +1,132 @@
+import React from 'react';
+
+export default function Contact () {
+  {
+    /*Section: Contact v.2*/
+  }
+
+  return (
+    <div className="container-fluid mt-md-0 mt-5 mb-5">
+      <section className="mb-4">
+        {/*Section heading*/}
+        <h2 className="h1-responsive font-weight-bold text-center my-4">
+          İletişim
+        </h2>
+        {/*Section description*/}
+        <p className="text-center w-responsive mx-auto mb-5">
+          Herhangi bir sorunuz mu var?
+          Lütfen doğrudan benimle iletişime geçmekten çekinmeyin.
+        </p>
+        <div className="row">
+          {/*Grid column*/}
+          <div className="col-md-9 mb-md-0 mb-5">
+            <form
+              id="contact-form"
+              name="contact-form"
+              action="mail.php"
+              method="POST"
+            >
+              {/*Grid row*/}
+              <div className="row">
+                {/*Grid column*/}
+                <div className="col-md-6">
+                  <div className="md-form mb-0">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      className="form-control"
+                    />
+                    <label htmlFor="name">
+                      Your name
+                    </label>
+                  </div>
+                </div>
+                {/*Grid column*/}
+                {/*Grid column*/}
+                <div className="col-md-6">
+                  <div className="md-form mb-0">
+                    <input
+                      type="text"
+                      id="email"
+                      name="email"
+                      className="form-control"
+                    />
+                    <label htmlFor="email">
+                      Your email
+                    </label>
+                  </div>
+                </div>
+                {/*Grid column*/}
+              </div>
+              {/*Grid row*/}
+              {/*Grid row*/}
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="md-form mb-0">
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      className="form-control"
+                    />
+                    <label htmlFor="subject">
+                      Subject
+                    </label>
+                  </div>
+                </div>
+              </div>
+              {/*Grid row*/}
+              {/*Grid row*/}
+              <div className="row">
+                {/*Grid column*/}
+                <div className="col-md-12">
+                  <div className="md-form">
+                    <textarea
+                      type="text"
+                      id="message"
+                      name="message"
+                      rows={2}
+                      className="form-control md-textarea"
+                      defaultValue={''}
+                    />
+                    <label htmlFor="message">Your message</label>
+                  </div>
+                </div>
+              </div>
+              {/*Grid row*/}
+            </form>
+            <div className="text-center text-md-left">
+              <a className="btn btn-primary" onClick={() => alert ('Submit')}>
+                Send
+              </a>
+            </div>
+            <div className="status" />
+          </div>
+          {/*Grid column*/}
+          {/*Grid column*/}
+          <div className="col-md-3 text-center">
+            <ul className="list-unstyled mb-0">
+              <li>
+                <i className="fas fa-map-marker-alt fa-2x" />
+                <p>San Francisco, CA 94126, USA</p>
+              </li>
+              <li>
+                <i className="fas fa-phone mt-4 fa-2x" />
+                <p>+ 01 234 567 89</p>
+              </li>
+              <li>
+                <i className="fas fa-envelope mt-4 fa-2x" />
+                <p>contact@mdbootstrap.com</p>
+              </li>
+            </ul>
+          </div>
+          {/*Grid column*/}
+        </div>
+      </section>
+    </div>
+  );
+  {
+    /*Section: Contact v.2*/
+  }
+}

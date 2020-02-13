@@ -31,55 +31,15 @@ export default function NavBar () {
                   aria-expanded="false"
                 >
                   {' '}
-                  HOMEPAGE
+                  HOME
                 </a>
-               
+
               </li>
-              <li className="nav-item dropdown ml-4  mb-0">
-                <a
-                  className="nav-link dropdown-toggle waves-effect waves-light font-weight-bold"
-                  id="navbarDropdownMenuLink-2"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  {' '}
-                  POST PAGE{' '}
-                </a>
-                <div
-                  className="dropdown-menu dropdown-menu-right"
-                  aria-labelledby="navbarDropdownMenuLink-2"
-                >
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../postpage/v-1.html"
-                  >
-                    V1
-                  </a>
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../postpage/v-2.html"
-                  >
-                    V2
-                  </a>
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../postpage/v-3.html"
-                  >
-                    V3
-                  </a>
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../postpage/v-4.html"
-                  >
-                    V4
-                  </a>
-                </div>
-              </li>
+
               <li className="nav-item dropdown ml-4  mb-0">
                 <a
                   href="#"
-                  className="nav-link dropdown-toggle waves-effect waves-light font-weight-bold"
+                  className="nav-link waves-effect waves-light font-weight-bold"
                   id="navbarDropdownMenuLink-4"
                   data-toggle="dropdown"
                   aria-haspopup="true"
@@ -87,29 +47,7 @@ export default function NavBar () {
                 >
                   ABOUT
                 </a>
-                <div
-                  className="dropdown-menu dropdown-menu-right"
-                  aria-labelledby="navbarDropdownMenuLink-4"
-                >
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../author page/v-1.html"
-                  >
-                    V1
-                  </a>
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../author page/v-2.html"
-                  >
-                    V2
-                  </a>
-                  <a
-                    className="dropdown-item waves-effect waves-light"
-                    href="../author page/v-3.html"
-                  >
-                    V3
-                  </a>
-                </div>
+
               </li>
               <li className="nav-item ml-4 mb-0">
                 <a
