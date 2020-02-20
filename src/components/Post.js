@@ -477,20 +477,37 @@ export default function Post () {
                                       </h4>
                                       <hr />
                                       <p />
-                                      <p className="font-small font-weight-bold dark-grey-text mb-1">
-                                        <i className="far fa-clock-o" />
-                                        {' '}
-                                        27/08/2017
-                                      </p>
+
+                                      <div className="row">
+                                        <div className="col">
+
+                                          <p className="font-small font-weight-bold dark-grey-text mb-1">
+                                            <i className="far fa-clock-o" />
+                                            {' '}
+                                            11/11/2020
+                                          </p>
+
+                                        </div>
+                                        {/*<div className="col">
+     
                                       <p className="font-small grey-text mb-0">
                                         Anna Smith
                                       </p>
-                                      <p className="text-right mb-0 font-small font-weight-bold">
-                                        <a>
-                                          read more
-                                          <i className="fas fa-angle-right" />
-                                        </a>
-                                      </p>
+                                        
+                                        </div>
+                                        */}
+                                        <div class="col">
+
+                                          <p className="text-right mb-0 font-small font-weight-bold">
+                                            <a>
+                                              read more
+                                              <i className="fas fa-angle-right" />
+                                            </a>
+                                          </p>
+
+                                        </div>
+                                      </div>
+
                                     </div>
                                     {/* Card content */}
                                   </div>

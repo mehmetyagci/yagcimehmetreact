@@ -40,18 +40,36 @@ export default function PostShort () {
               batch fregan sed.
             </p>
             <p />
-            <p className="font-small font-weight-bold blue-grey-text mb-1">
-              <i className="far fa-clock-o" /> 27/08/2017
-            </p>
-            <p className="font-small dark-grey-text mb-0 font-weight-bold">
-              Anna Smith
-            </p>
-            <p className="text-right mb-0 text-uppercase dark-grey-text font-weight-bold">
-              <a>
-                read more
-                <i className="fas fa-chevron-right" aria-hidden="true" />
-              </a>
-            </p>
+
+            <div class="row">
+              <div class="col">
+
+                <p className="font-small font-weight-bold blue-grey-text mb-1">
+                  <i className="far fa-clock-o" /> 09/09/2019
+                </p>
+
+              </div>
+              {/* 
+                <div class="col">
+                  <p className="font-small dark-grey-text mb-0 font-weight-bold">
+                              Anna Smith
+                  </p>
+                </div>*/}
+              <div class="col">
+
+                <p className="text-right mb-0 text-uppercase dark-grey-text font-weight-bold">
+                  <a>
+                    read more
+                    <i
+                      className="fas fa-chevron-right ml-2"
+                      aria-hidden="true"
+                    />
+                  </a>
+                </p>
+
+              </div>
+            </div>
+
           </div>
           {/* Card content */}
         </div>
